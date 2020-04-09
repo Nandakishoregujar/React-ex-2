@@ -1,13 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+// import Lifecycle from './component/Lifecycle'
+import Nand from './component/Nand'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <Lifecycle /> */}
+        <Nand />
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -15,9 +18,9 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        > */}
+          {/* Learn React */}
+        {/* </a> */}
       </header>
     </div>
   );
