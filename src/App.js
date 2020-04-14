@@ -5,12 +5,19 @@ import ParentComp from './component/ParentComp'
 // import Lifecycle from './component/Lifecycle'
 import Nand from './component/Nand'
 import Exercise3 from './component/Exercise3'
+import ComponentC from './component/ComponentC';
+import {UserProvider} from './component/userContext';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Exercise3/>
+        <UserProvider value = "Nand">
+
+        <ComponentC />
+        </UserProvider>
+
+        {/* <Exercise3/> */}
         {/* <Lifecycle /> */}
         {/* <ParentComp/> */}
         {/* <Nand /> */}
