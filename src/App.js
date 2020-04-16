@@ -7,17 +7,15 @@ import React,{Component} from 'react';
 // import Exercise3 from './component/Exercise3'
 // import ComponentC from './component/ComponentC';
 // import {UserProvider} from './component/userContext';
-import Exercise5 from './component/Exercise5'
-
+ import Exercise5 from './component/Exercise5'
 
 class App extends Component {
   render() {
     return (
       <div>
 
-
-        <Exercise5 />
-
+      <Exercise5 />
+       
       </div>
     );
   }
